@@ -37,6 +37,16 @@
   margin-left: 350px; /* Adjust spacing between logo and search bar */
   flex: 1; /* Allow the search bar to grow horizontally */
   }
+  .search-btn{
+    border: 1px solid  #f8f8f8;
+    border-radius: 9px;
+    margin:2px ;
+    padding-top: 4px;
+    background-color: #000000;
+  }
+  .search-btn:hover {
+    background-color: rgb(251,0,108); /* Change background color on hover */
+}
   
   .profile-button {
     border: none;
