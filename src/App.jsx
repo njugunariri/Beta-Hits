@@ -1,13 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Loginpage from "./components/Layouts/Loginpage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    </>
-  )
+  return <Loginpage />;
 }
 
-export default App
+export default App;
