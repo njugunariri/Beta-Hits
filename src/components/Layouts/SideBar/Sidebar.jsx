@@ -29,7 +29,9 @@ function Sidebar() {
             <h3>PLAYLIST</h3>
             <hr />
           </div>
-          {/* Add more navigation links as needed */}
+          <li>
+            <a href="#">Saved Songs</a>
+          </li>
         </ul>
       </div>
     </div>

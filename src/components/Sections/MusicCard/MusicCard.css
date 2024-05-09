@@ -1,0 +1,16 @@
+.song-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 200px;
+    height: 350px; 
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgb(251,0,108);
+    background: linear-gradient(90deg, rgba(251,0,108,1) 24%, rgba(0,0,0,1) 49%);
+}
