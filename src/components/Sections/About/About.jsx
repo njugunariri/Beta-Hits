@@ -1,5 +1,8 @@
 import './About.css'
-import logo from "./Beta-Hits/public/Beta.jpg"
+import BetaImage from "/Beta.jpg";
+
+
+
 import { FaEnvelope, FaPhoneAlt,FaTwitter,FaInstagram,FaMusic } from 'react-icons/fa';
 
 function About() {
@@ -10,7 +13,7 @@ function About() {
    return(
    <div className='about-container'>
       <div className='logo'>
-      <img src={logo} alt="Beta Music Logo" />
+      <img src={BetaImage} alt="Beta Music Logo" />
       </div>
        <section className='section-1'>
            <h1 > About Beta Hits</h1>

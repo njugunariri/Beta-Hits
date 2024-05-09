@@ -4,10 +4,11 @@ import Navbar from './components/Layouts/NavBar/Navbar'
 import Sidebar from './components/Layouts/SideBar/Sidebar'
 import Home from './components/Sections/Home/Home'
 
+
 function App() {
   // initialize the state
   const [music, setMusic] = useState([]);
-  const [savedSongs, setSavedSongs] = useState([]);
+ 
   
 
   // fetch the data and reset the state

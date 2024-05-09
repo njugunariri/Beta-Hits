@@ -9,8 +9,8 @@
     width: 200px;
     height: 350px; 
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     background: rgb(251,0,108);
     background: linear-gradient(90deg, rgba(251,0,108,1) 24%, rgba(0,0,0,1) 49%);
 }

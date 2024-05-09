@@ -28,13 +28,14 @@
   }
   
   .search-input {
-    padding: 20px 500px; /* Adjust padding as needed */
-    border: 1px solid #f8f8f8;
-    color: #000000;
-    background-color: #a19797;
-    border-radius: 4px;
-    margin-left: 350px; /* Adjust spacing between logo and search bar */
-    flex: 1; /* Allow the search bar to grow horizontally */
+  padding: 10px 70px; /* Adjust padding as needed */
+  font-size: 12px; /* Adjust font size as needed */
+  border: 1px solid #f8f8f8;
+  color: #000000;
+  background-color: #a19797;
+  border-radius: 50px;
+  margin-left: 350px; /* Adjust spacing between logo and search bar */
+  flex: 1; /* Allow the search bar to grow horizontally */
   }
   
   .profile-button {
