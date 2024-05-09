@@ -10,7 +10,6 @@ body {
     height: 100vh; 
     width: 250px; 
     background: rgb(0,0,0);
-background: linear-gradient(354deg, rgba(0,0,0,1) 3%, rgba(255,0,228,1) 10%, rgba(0,0,0,1) 70%);
     color: #fff; 
     box-shadow: 0 0 70px rgba(255, 0, 221, 0.2); 
     z-index: 10; 

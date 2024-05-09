@@ -1,15 +1,27 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
-import Navbar from './components/Layouts/Navbar'
-import Sidebar from './components/Layouts/Sidebar'
+import Navbar from './components/Layouts/NavBar/Navbar'
+import Sidebar from './components/Layouts/SideBar/Sidebar'
+import Home from './components/Sections/Home/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // initialize the state
+  const [music, setMusic] = useState([]);
+  const [savedSongs, setSavedSongs] = useState([]);
+  
+
+  // fetch the data and reset the state
+  useEffect(() => {
+    fetch("http://localhost:3000/musicDB")
+      .then((res) => res.json())
+      .then((data) => setMusic(data));
+  }, []);
 
   return (
-    <div>
-    <Navbar />
-    <Sidebar />
+    <div className='App'>
+      <Home music={music}/>
+      <Navbar />
+      <Sidebar />
     </div>
   )
 }
