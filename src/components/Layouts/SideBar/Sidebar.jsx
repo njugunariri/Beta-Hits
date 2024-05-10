@@ -1,11 +1,16 @@
 import "./sidebar.css";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
     <div className="sidebar">
       {/* Your sidebar content here */}
       <div className="sidebar-header">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJcn86zqfPBm-Sy2wsDy48VEiRzmQb56VHhVpa33GawwfJh0vpxI_rfsH3v4SfDYF0B8&usqp=CAU" alt="Sidebar Logo" className="sidebar-logo" />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJcn86zqfPBm-Sy2wsDy48VEiRzmQb56VHhVpa33GawwfJh0vpxI_rfsH3v4SfDYF0B8&usqp=CAU"
+          alt="Sidebar Logo"
+          className="sidebar-logo"
+        />
         <div className="sidebar-title-container">
           <h3>Library</h3>
           <hr /> {/* Added a horizontal rule for separation */}
@@ -15,13 +20,13 @@ function Sidebar() {
         {/* Navigation links for your sidebar */}
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#">Search</a>
+            <Link to="/search">Search</Link>
           </li>
           <div className="sidebar-title-container">
             {" "}
@@ -29,12 +34,12 @@ function Sidebar() {
             <hr />
           </div>
           <li>
-            <a href="#">Saved Songs</a>
+            <Link to="/savedSongs">Saved Songs</Link>
           </li>
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
