@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import { FaSearch } from 'react-icons/fa'
 
 
-function SearchBar({ music, setFilteredMusic }) {
+function Search({ music, setFilteredMusic }) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = (e) => {
@@ -30,4 +30,4 @@ function SearchBar({ music, setFilteredMusic }) {
   );
 }
 
-export default SearchBar;
+export default Search;

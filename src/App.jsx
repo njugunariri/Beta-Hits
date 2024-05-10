@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Layouts/NavBar/Navbar'
 import Sidebar from './components/Layouts/SideBar/Sidebar'
 import Home from './components/Sections/Home/Home'
-import SearchBar from './components/Sections/Search/Search'
+import Search from './components/Sections/Search/Search'
 
 
 
@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <Navbar setFilteredMusic={setFilteredMusic} music={music} />
       <Sidebar />
-      <SearchBar music={music} setFilteredMusic={setFilteredMusic} />
+      <Search music={music} setFilteredMusic={setFilteredMusic} />
       <Home music={filteredMusic} />
     </div>
   );
