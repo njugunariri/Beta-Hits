@@ -1,208 +1,295 @@
 {
-    "musicDB": [
-      {
-        "id": "0",
-        "name": "Cradles",
-        "author_name": "Sub Urban",
-        "img": "/images/cradles.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Bass",
-        "musicName": "Sub Urban - Cradles [NCS Release].mp3",
-        "attribution": {
-          "song": "Sub Urban - Cradles [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/Cradles",
-          "stream": "http://youtu.be/Hn4sfC2PbhI"
-        },
-        "isSaved": true
+  "musicDB": [
+    {
+      "id": "0",
+      "name": "Cradles",
+      "author_name": "Sub Urban",
+      "img": "/images/cradles.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Bass",
+      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
+      "attribution": {
+        "song": "Sub Urban - Cradles [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Cradles",
+        "stream": "http://youtu.be/Hn4sfC2PbhI"
       },
-      {
-        "id": "1",
-        "name": "Never Knew Me",
-        "author_name": "Rameses B & Veela",
-        "img": "/images/neverknewme.jpg",
-        "lang": null,
-        "timesPlayed": 0,
-        "type": "Phonk",
-        "musicName": "Rameses B & Veela - Never Knew Me [NCS Release].mp3",
-        "attribution": {
-          "song": "Rameses B & Veela - Never Knew Me [NCS Release]",
-          "musicBy": "mixkit",
-          "download": "http://ncs.io/NKM",
-          "stream": "http://ncs.lnk.to/NKMAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": true
+    },
+    {
+      "id": "1",
+      "name": "Never Knew Me",
+      "author_name": "Rameses B & Veela",
+      "img": "/images/neverknewme.jpg",
+      "lang": null,
+      "timesPlayed": 0,
+      "type": "Phonk",
+      "musicName": "Rameses B & Veela - Never Knew Me [NCS Release].mp3",
+      "attribution": {
+        "song": "Rameses B & Veela - Never Knew Me [NCS Release]",
+        "musicBy": "mixkit",
+        "download": "http://ncs.io/NKM",
+        "stream": "http://ncs.lnk.to/NKMAT/youtube"
       },
-      {
-        "id": "2",
-        "name": "Back & Forth",
-        "author_name": "MANSHN",
-        "img": "/images/back&forth.jpg",
-        "lang": "ENGLISH",
-        "type": "Garage",
-        "timesPlayed": 0,
-        "musicName": "MANSHN - Back & Forth [NCS Release].mp3",
-        "attribution": {
-          "song": "MANSHN - Back & Forth [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/BackAndForth",
-          "stream": "http://ncs.lnk.to/BackAndForthAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "2",
+      "name": "Back & Forth",
+      "author_name": "MANSHN",
+      "img": "/images/back&forth.jpg",
+      "lang": "ENGLISH",
+      "type": "Garage",
+      "timesPlayed": 0,
+      "musicName": "MANSHN - Back & Forth [NCS Release].mp3",
+      "attribution": {
+        "song": "MANSHN - Back & Forth [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/BackAndForth",
+        "stream": "http://ncs.lnk.to/BackAndForthAT/youtube"
       },
-      {
-        "id": "3",
-        "name": "In Bonfires Green",
-        "author_name": "Psylla",
-        "img": "/images/inbonfiresgreen.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Electronic",
-        "musicName": "Psylla - In Bonfires Green [NCS Release].mp3",
-        "attribution": {
-          "song": "Psylla - In Bonfires Green [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/IBG",
-          "stream": "http://ncs.lnk.to/IBGAT/youtube"
-        },
-        "isSaved": true
+      "isSaved": false
+    },
+    {
+      "id": "3",
+      "name": "In Bonfires Green",
+      "author_name": "Psylla",
+      "img": "/images/inbonfiresgreen.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Electronic",
+      "musicName": "Psylla - In Bonfires Green [NCS Release].mp3",
+      "attribution": {
+        "song": "Psylla - In Bonfires Green [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/IBG",
+        "stream": "http://ncs.lnk.to/IBGAT/youtube"
       },
-      {
-        "id": "4",
-        "name": "I Wanna Dance",
-        "author_name": "PYTI",
-        "img": "/images/Iwannadance.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Techno",
-        "musicName": "PYTI - I Wanna Dance [NCS Release].mp3",
-        "attribution": {
-          "song": "PYTI - I Wanna Dance [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/IWannaDance",
-          "stream": "http://ncs.io/IWannaDanceAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": true
+    },
+    {
+      "id": "4",
+      "name": "I Wanna Dance",
+      "author_name": "PYTI",
+      "img": "/images/Iwannadance.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Techno",
+      "musicName": "PYTI - I Wanna Dance [NCS Release].mp3",
+      "attribution": {
+        "song": "PYTI - I Wanna Dance [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/IWannaDance",
+        "stream": "http://ncs.io/IWannaDanceAT/youtube"
       },
-      {
-        "id": "5",
-        "name": "Hollow",
-        "author_name": "Unlike Pluto",
-        "img": "/images/hollow.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Alternative Pop",
-        "musicName": "Unlike Pluto - Hollow [NCS Release].mp3",
-        "attribution": {
-          "song": "Unlike Pluto - Hollow [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/UP/Hollow",
-          "stream": "http://ncs.lnk.to/UP/HollowAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "5",
+      "name": "Hollow",
+      "author_name": "Unlike Pluto",
+      "img": "/images/hollow.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Alternative Pop",
+      "musicName": "Unlike Pluto - Hollow [NCS Release].mp3",
+      "attribution": {
+        "song": "Unlike Pluto - Hollow [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/UP/Hollow",
+        "stream": "http://ncs.lnk.to/UP/HollowAT/youtube"
       },
-      {
-        "id": "6",
-        "name": "Code",
-        "author_name": "MANSHN",
-        "img": "/images/code.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Breakbeat",
-        "musicName": "MANSHN - Back & Forth [NCS Release].mp3",
-        "attribution": {
-          "song": "MANSHN - Code [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/Code",
-          "stream": "http://ncs.lnk.to/CodeAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "6",
+      "name": "Code",
+      "author_name": "MANSHN",
+      "img": "/images/code.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Breakbeat",
+      "musicName": "MANSHN - Back & Forth [NCS Release].mp3",
+      "attribution": {
+        "song": "MANSHN - Code [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Code",
+        "stream": "http://ncs.lnk.to/CodeAT/youtube"
       },
-      {
-        "id": "7",
-        "name": "Shadow Of Ages",
-        "author_name": "Wiguez & Ric Waves",
-        "img": "/images/shadowofages.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Liquid",
-        "musicName": "Wiguez & Ric Waves - Shadow Of Ages [Arcade Release].mp3",
-        "attribution": {
-          "song": "Wiguez & Ric Waves - Shadow Of Ages [Arcade Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": null,
-          "stream": null
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "7",
+      "name": "Shadow Of Ages",
+      "author_name": "Wiguez & Ric Waves",
+      "img": "/images/shadowofages.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Liquid",
+      "musicName": "Wiguez & Ric Waves - Shadow Of Ages [Arcade Release].mp3",
+      "attribution": {
+        "song": "Wiguez & Ric Waves - Shadow Of Ages [Arcade Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": null,
+        "stream": null
       },
-      {
-        "id": "8",
-        "name": "Ignite",
-        "author_name": "Tom wilson, Heuse",
-        "img": "/images/ignite.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Electronic",
-        "musicName": "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
-        "attribution": {
-          "song": "Heuse & Tom Wilson - Ignite [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/Ignite",
-          "stream": "http://youtu.be/zbqgv0mMfwk"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "8",
+      "name": "Ignite",
+      "author_name": "Tom wilson, Heuse",
+      "img": "/images/ignite.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Electronic",
+      "musicName": "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+      "attribution": {
+        "song": "Heuse & Tom Wilson - Ignite [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Ignite",
+        "stream": "http://youtu.be/zbqgv0mMfwk"
       },
-      {
-        "id": "9",
-        "name": "Vibe",
-        "author_name": "Spicyverse",
-        "img": "/images/vibe.png",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "House",
-        "musicName": "Spicyverse - Vibe [NCS Release].mp3",
-        "attribution": {
-          "song": "Spicyverse - Vibe [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/SV/Vibe",
-          "stream": "https://www.youtube.com/watch?v=dm0S-Fbq4Qs"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "9",
+      "name": "Vibe",
+      "author_name": "Spicyverse",
+      "img": "/images/vibe.png",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "House",
+      "musicName": "Spicyverse - Vibe [NCS Release].mp3",
+      "attribution": {
+        "song": "Spicyverse - Vibe [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/SV/Vibe",
+        "stream": "https://www.youtube.com/watch?v=dm0S-Fbq4Qs"
       },
-      {
-        "id": "10",
-        "name": "What's The Problem?",
-        "author_name": "OSKI",
-        "img": "/images/what'stheproblem.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Electronic, Pop",
-        "musicName": "OSKI - What's The Problem? [NCS Release].mp3",
-        "attribution": {
-          "song": "OSKI - What's The Problem? [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/WTP",
-          "stream": "http://ncs.lnk.to/WTPAT/youtube"
-        },
-        "isSaved": false
+      "isSaved": false
+    },
+    {
+      "id": "10",
+      "name": "What's The Problem?",
+      "author_name": "OSKI",
+      "img": "/images/what'stheproblem.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Electronic, Pop",
+      "musicName": "OSKI - What's The Problem? [NCS Release].mp3",
+      "attribution": {
+        "song": "OSKI - What's The Problem? [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/WTP",
+        "stream": "http://ncs.lnk.to/WTPAT/youtube"
       },
-      {
-        "id": "11",
-        "name": "All I Need",
-        "author_name": "Ariadne (feat. Karl Killing)",
-        "img": "/images/allIneed.jpg",
-        "lang": "ENGLISH",
-        "timesPlayed": 0,
-        "type": "Drum, Bass",
-        "musicName": "Ariadne - All I Need (feat. Karl Killing) [NCS Release].mp3",
-        "attribution": {
-          "song": "OAriadne - All I Need (feat. Karl Killing) [NCS Release]",
-          "musicBy": "NoCopyrightSounds",
-          "download": "http://ncs.io/a-allineed",
-          "stream": "http://ncs.lnk.to/a-allineedAT/youtube"
-        },
-        "isSaved": false
-      }
-    ]
+      "isSaved": false
+    },
+    {
+      "id": "11",
+      "name": "All I Need",
+      "author_name": "Ariadne (feat. Karl Killing)",
+      "img": "/images/allIneed.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Drum, Bass",
+      "musicName": "Ariadne - All I Need (feat. Karl Killing) [NCS Release].mp3",
+      "attribution": {
+        "song": "OAriadne - All I Need (feat. Karl Killing) [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/a-allineed",
+        "stream": "http://ncs.lnk.to/a-allineedAT/youtube"
+      },
+      "isSaved": false
+    }
+  ],
+  "savedsongs": [
+    {
+      "id": "0",
+      "name": "Cradles",
+      "author_name": "Sub Urban",
+      "img": "/images/cradles.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Bass",
+      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
+      "attribution": {
+        "song": "Sub Urban - Cradles [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Cradles",
+        "stream": "http://youtu.be/Hn4sfC2PbhI"
+      },
+      "isSaved": true
+    },
+    {
+      "id": "0",
+      "name": "Cradles",
+      "author_name": "Sub Urban",
+      "img": "/images/cradles.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Bass",
+      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
+      "attribution": {
+        "song": "Sub Urban - Cradles [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Cradles",
+        "stream": "http://youtu.be/Hn4sfC2PbhI"
+      },
+      "isSaved": true
+    },
+    {
+      "id": "0",
+      "name": "Cradles",
+      "author_name": "Sub Urban",
+      "img": "/images/cradles.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Bass",
+      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
+      "attribution": {
+        "song": "Sub Urban - Cradles [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/Cradles",
+        "stream": "http://youtu.be/Hn4sfC2PbhI"
+      },
+      "isSaved": true
+    },
+    {
+      "id": "9",
+      "name": "Vibe",
+      "author_name": "Spicyverse",
+      "img": "/images/vibe.png",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "House",
+      "musicName": "Spicyverse - Vibe [NCS Release].mp3",
+      "attribution": {
+        "song": "Spicyverse - Vibe [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/SV/Vibe",
+        "stream": "https://www.youtube.com/watch?v=dm0S-Fbq4Qs"
+      },
+      "isSaved": false
+    },
+    {
+      "id": "10",
+      "name": "What's The Problem?",
+      "author_name": "OSKI",
+      "img": "/images/what'stheproblem.jpg",
+      "lang": "ENGLISH",
+      "timesPlayed": 0,
+      "type": "Electronic, Pop",
+      "musicName": "OSKI - What's The Problem? [NCS Release].mp3",
+      "attribution": {
+        "song": "OSKI - What's The Problem? [NCS Release]",
+        "musicBy": "NoCopyrightSounds",
+        "download": "http://ncs.io/WTP",
+        "stream": "http://ncs.lnk.to/WTPAT/youtube"
+      },
+      "isSaved": false
+    }
+  ]
 }
