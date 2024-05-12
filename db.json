@@ -66,7 +66,7 @@
         "download": "http://ncs.io/IBG",
         "stream": "http://ncs.lnk.to/IBGAT/youtube"
       },
-      "isSaved": true
+      "isSaved": false
     },
     {
       "id": "4",
@@ -205,125 +205,5 @@
       "isSaved": false
     }
   ],
-  "savedsongs": [
-    {
-      "id": "0",
-      "name": "Cradles",
-      "author_name": "Sub Urban",
-      "img": "/images/cradles.jpg",
-      "lang": "ENGLISH",
-      "timesPlayed": 0,
-      "type": "Bass",
-      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
-      "attribution": {
-        "song": "Sub Urban - Cradles [NCS Release]",
-        "musicBy": "NoCopyrightSounds",
-        "download": "http://ncs.io/Cradles",
-        "stream": "http://youtu.be/Hn4sfC2PbhI"
-      },
-      "isSaved": true
-    },
-    {
-      "id": "0",
-      "name": "Cradles",
-      "author_name": "Sub Urban",
-      "img": "/images/cradles.jpg",
-      "lang": "ENGLISH",
-      "timesPlayed": 0,
-      "type": "Bass",
-      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
-      "attribution": {
-        "song": "Sub Urban - Cradles [NCS Release]",
-        "musicBy": "NoCopyrightSounds",
-        "download": "http://ncs.io/Cradles",
-        "stream": "http://youtu.be/Hn4sfC2PbhI"
-      },
-      "isSaved": true
-    },
-    {
-      "id": "0",
-      "name": "Cradles",
-      "author_name": "Sub Urban",
-      "img": "/images/cradles.jpg",
-      "lang": "ENGLISH",
-      "timesPlayed": 0,
-      "type": "Bass",
-      "musicName": "Sub Urban - Cradles [NCS Release].mp3",
-      "attribution": {
-        "song": "Sub Urban - Cradles [NCS Release]",
-        "musicBy": "NoCopyrightSounds",
-        "download": "http://ncs.io/Cradles",
-        "stream": "http://youtu.be/Hn4sfC2PbhI"
-      },
-      "isSaved": true
-    },
-    {
-      "id": "9",
-      "name": "Vibe",
-      "author_name": "Spicyverse",
-      "img": "/images/vibe.png",
-      "lang": "ENGLISH",
-      "timesPlayed": 0,
-      "type": "House",
-      "musicName": "Spicyverse - Vibe [NCS Release].mp3",
-      "attribution": {
-        "song": "Spicyverse - Vibe [NCS Release]",
-        "musicBy": "NoCopyrightSounds",
-        "download": "http://ncs.io/SV/Vibe",
-        "stream": "https://www.youtube.com/watch?v=dm0S-Fbq4Qs"
-      },
-      "isSaved": false
-    },
-    {
-      "id": "10",
-      "name": "What's The Problem?",
-      "author_name": "OSKI",
-      "img": "/images/what'stheproblem.jpg",
-      "lang": "ENGLISH",
-      "timesPlayed": 0,
-      "type": "Electronic, Pop",
-      "musicName": "OSKI - What's The Problem? [NCS Release].mp3",
-      "attribution": {
-        "song": "OSKI - What's The Problem? [NCS Release]",
-        "musicBy": "NoCopyrightSounds",
-        "download": "http://ncs.io/WTP",
-        "stream": "http://ncs.lnk.to/WTPAT/youtube"
-      },
-      "isSaved": false
-    },
-    {
-      "id": "1",
-      "name": "Never Knew Me",
-      "author_name": "Rameses B & Veela",
-      "img": "/images/neverknewme.jpg",
-      "lang": null,
-      "timesPlayed": 0,
-      "type": "Phonk",
-      "musicName": "Rameses B & Veela - Never Knew Me [NCS Release].mp3",
-      "attribution": {
-        "song": "Rameses B & Veela - Never Knew Me [NCS Release]",
-        "musicBy": "mixkit",
-        "download": "http://ncs.io/NKM",
-        "stream": "http://ncs.lnk.to/NKMAT/youtube"
-      },
-      "isSaved": false
-    },
-    {
-      "id": "1",
-      "name": "Never Knew Me",
-      "author_name": "Rameses B & Veela",
-      "img": "/images/neverknewme.jpg",
-      "lang": null,
-      "timesPlayed": 0,
-      "type": "Phonk",
-      "musicName": "Rameses B & Veela - Never Knew Me [NCS Release].mp3",
-      "attribution": {
-        "song": "Rameses B & Veela - Never Knew Me [NCS Release]",
-        "musicBy": "mixkit",
-        "download": "http://ncs.io/NKM",
-        "stream": "http://ncs.lnk.to/NKMAT/youtube"
-      },
-      "isSaved": false
-    }
-  ]
+  "savedsongs": []
 }

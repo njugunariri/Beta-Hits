@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import "./MusicCard.css";
 
-export default function MusicCard({ song, onHandleSave }) {
+export default function MusicCard({ song, onHandleSave, onHandleDelete }) {
   const [heart, setHeart] = useState("🤍");
 
   return (
@@ -32,6 +32,9 @@ export default function MusicCard({ song, onHandleSave }) {
         </button>
         <button onClick={() => onHandleSave(song)}>
           {song.isSaved ? "Saved" : "Save"}
+        </button>
+        <button onClick={() => onHandleDelete(song)}>
+          Delete
         </button>
       </div>
     </div>
