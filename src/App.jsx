@@ -47,8 +47,8 @@ function App() {
     <div className="App">
       <Navbar setFilteredMusic={setFilteredMusic} music={music} />
       <Sidebar />
-      <Search music={music} setFilteredMusic={setFilteredMusic} />
-      <Home music={filteredMusic} handleSave={handleSave}/>
+      <Search />
+      <Home music={music} handleSave={handleSave}/>
     </div>
   );
 }
