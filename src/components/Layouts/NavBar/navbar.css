@@ -19,74 +19,96 @@
     display: flex;
     align-items: center;
   }
-  
-  .logo {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fffdfd;
-  }
-  
-  .search-input {
-  padding: 10px 70px; /* Adjust padding as needed */
-  font-size: 12px; /* Adjust font size as needed */
-  border: 1px solid #f8f8f8;
-  color: #000000;
-  background-color: #a19797;
-  border-radius: 50px;
-  margin-left: 350px; /* Adjust spacing between logo and search bar */
-  flex: 1; /* Allow the search bar to grow horizontally */
-  }
-  .search-btn{
-    border: 1px solid  #f8f8f8;
-    border-radius: 9px;
-    margin:2px ;
-    padding-top: 4px;
-    background-color: #000000;
-  }
-  .search-btn:hover {
-    background-color: rgb(251,0,108); /* Change background color on hover */
+
+.search-container {
+  display: flex; /* Flexbox for side-by-side elements */
+  align-items: center; /* Vertically align content */
 }
-  
-  .profile-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-right: -10px;
-    padding: 150px; /* Adjust padding to accommodate icon size */
-    border-radius: 50%; /* Make the button circular */
-  }
-  
-  .profile-icon {
-    width: 54px;
-    height: 54px;
-    fill: #df00fc;
-  }
-  
-  /* Media queries for responsive adjustments */
-  @media (max-width: 768px) {
-    .search-input {
-      padding: 8px 8px; /* Adjust padding for smaller screens */
-      margin-left: 10px; /* Adjust spacing for smaller screens */
-    }
-  
-    .profile-button {
-      padding: 5px; /* Adjust padding for smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .logo {
-      font-size: 12px; /* Adjust logo size for smaller screens */
-    }
-  
-    .navbar-container {
-      flex-wrap: wrap; /* Wrap elements on smaller screens */
-      justify-content: space-between; /* Align logo and profile button on separate lines */
-    }
-  
-    .search-input {
-      display: none; /* Hide search input on very small screens */
-    }
-  }
+
+.search-input {
+  width: calc(100% - 50px); /* Stretches to fit container */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px; /* Rounded pill shape */
+  font-size: 16px;
+  background-color: #f0f0f0; /* Light gray background */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  margin-left: 400px;
+  color: black;
+}
+
+.search-input::placeholder {
+  color: #ccc; /* Light gray placeholder text */
+}
+
+.search-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px; /* Match input shape */
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50; /* Green color */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.search-btn:hover {
+  background-color: pink; /* Darker green on hover */
+}
+
+.search-container:hover .search-input {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+.profile-button {
+  width: 50px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: rgb(129, 110, 216);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 0px 2px rgb(212, 209, 255);
+  margin-left: 400px;
+}
+.bar {
+  width: 50%;
+  height: 2px;
+  background-color: rgb(229, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 2px;
+}
+.bar::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: rgb(126, 117, 255);
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 5px white;
+}
+.bar1::before {
+  transform: translateX(-4px);
+}
+.bar2::before {
+  transform: translateX(4px);
+}
+.profile-button:hover .bar1::before {
+  transform: translateX(4px);
+}
+.profile-button:hover .bar2::before {
+  transform: translateX(-4px);
+}
+
   
