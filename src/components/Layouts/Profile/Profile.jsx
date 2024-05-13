@@ -44,9 +44,11 @@ function Profile() {
             />
           </div>
           <div className="btn">
-            <button className="button1">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </button>
+            <Link to="/app">
+              <button className="button1">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </button>
+            </Link>
             <Link to="/signup">
               <button className="button2">Sign Up</button>
             </Link>

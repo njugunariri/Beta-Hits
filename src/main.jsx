@@ -4,7 +4,6 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./components/Sections/About/About.jsx";
-import Search from "./components/Sections/Search/Search.jsx";
 import SavedSongs from "./components/Sections/SavedSongs/SavedSongs.jsx";
 import Loginpage from "./components/Layouts/Login/Loginpage.jsx";
 import Home from "./components/Sections/Home/Home.jsx";
@@ -35,10 +34,6 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
-  },
-  {
-    path: "/search",
-    element: <Search />,
   },
   {
     path: "/savedSongs",

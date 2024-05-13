@@ -1,7 +1,16 @@
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ setFilteredMusic, music }) {
+    const handleSearch = (e) => {
+      const searchTerm = e.target.previousElementSibling.value.toLowerCase();
+      const filteredMusic = music.filter(
+        (song) =>
+          song.name.toLowerCase().includes(searchTerm) ||
+          song.author_name.toLowerCase().includes(searchTerm)
+      );
+      setFilteredMusic(filteredMusic);
+    };
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -9,8 +18,9 @@ function Navbar() {
           type="text"
           className="search-input"
           placeholder="Search for music..."
+          onChange={(e) => onHandleSearch(e.target.value)}
         />
-        <button className="search-btn" type="button">
+        <button className="search-btn" type="button" onClick={handleSearch} >
           Search
         </button>
         <Link to="/profile">
